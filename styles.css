@@ -1,0 +1,52 @@
+body
+{
+	margin-left:76px;
+	width:1200px;
+	margin-right:76px;
+}
+.score
+{
+position:absolute;
+top:10px;
+left:500px;
+color:blue;
+text-shadow:2px 2px #FF0000;
+text-decoration:underline;}
+.but
+{
+position:absolute;
+top:10px;
+left:5px;
+}
+/*css for navigation bar*/
+div.nav
+{
+position:absolute;
+left:300px;
+top:70px;
+	height:50px;
+	margin-top:-16px;
+}
+div.nav ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	padding:0;
+}
+div.nav li
+{
+	float:left;
+	width:200px;
+}
+div.nav a:link,div.nav a:visited
+{
+	display:block;
+	font-weight:bold;
+	padding:15px;
+	text-align:center;
+	text-decoration:none;
+}
+div.nav a:hover,div.nav a:active
+{
+	background-color:#000000;
+}
